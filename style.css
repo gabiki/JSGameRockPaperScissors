@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    background: url(https://cdn.pixabay.com/photo/2016/05/22/19/07/background-1409025_960_720.png) no-repeat fixed;
+    background-size: cover;
+    filter:saturate(85%);
+    user-select: none;
+}
+
+table {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+td {
+    width: 12rem;
+    height: 8rem;
+}
+
+button {
+    width: 5rem;
+    height: 5rem;
+    background-color: rgba(255,255,255, 0.3);
+    border-radius: 40px;
+    border-color: rgba(255,255,255, 0.2);
+    color: rgb(130, 79, 158);
+    transition: 0.5s;
+}
+
+
+
+#rock:active, #paper:active, #scissors:active, #refresh:active {
+    width: 5rem;
+    height: 5rem;
+    background-color: rgba(255,255,255, 1);
+    border-radius: 40px;
+    border-color: rgba(255,255,255, 0.2);
+    color: rgb(130, 79, 158);
+    transition: 0s;
+}
+
+
+#random {
+    pointer-events: none;
+}
